@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Cores e fontes */
+body {
+  background-color: #f0f4f8; /* Fundo cinza claro */
+  color: #333; /* Texto cinza escuro */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #007bff; /* Azul principal */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+
+header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header ul li#principal {
+  background-color: #0056b3; /* Azul escuro para o item principal */
+}
+
+/* Estilo do main */
+main {
+  padding: 20px;
+}
+
+/* Estilo da seção "Sobre nós" */
+#sobre-nos {
+  margin-bottom: 30px;
+}
+
+#sobre-nos h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#sobre-nos p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilo da seção "Fazer Pedido" */
+#fazer-pedido h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#fazer-pedido form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#fazer-pedido label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+#fazer-pedido input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#fazer-pedido button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#fazer-pedido button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
